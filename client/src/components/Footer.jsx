@@ -41,14 +41,14 @@ export default function FooterCom() {
                 <Footer.Title title='Follow Us'></Footer.Title>
                 <Footer.LinkGroup col>
                     <Footer.Link
-                        href='https://www.github.com/rsphoenix02'
+                        href='https://github.com/rsphoenix01'
                         target="_blank"
                         rel='noopener noreferrer'
                     >
                         GitHub
                     </Footer.Link>
                     <Footer.Link
-                        href='https://www.linkedin.com/in/saquibahmed02/'
+                        href='https://www.linkedin.com/in/roshan-abbas-313a0a21a/'
                         target="_blank"
                         rel='noopener noreferrer'
                     >
@@ -79,12 +79,12 @@ export default function FooterCom() {
         </div>
         <Footer.Divider></Footer.Divider>
         <div className="w-full sm:flex sm:items-center sm:justify-between">
-            <Footer.Copyright href='#' by='rsphoenix02' year={new Date().getFullYear()}></Footer.Copyright>
+            <Footer.Copyright href='#' by='rsphoenix01' year={new Date().getFullYear()}></Footer.Copyright>
            <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
                 <Footer.Icon href='#' icon={BsFacebook}></Footer.Icon>
                 <Footer.Icon href='#' icon={BsInstagram}></Footer.Icon>
                 <Footer.Icon href='#' icon={BsTwitter}></Footer.Icon>
-                <Footer.Icon href='https://www.github.com/rsphoenix02' icon={BsGithub}></Footer.Icon>
+                <Footer.Icon href='https://www.github.com/rsphoenix01' icon={BsGithub}></Footer.Icon>
                 <Footer.Icon href='#' icon={BsDribbble}></Footer.Icon>
            </div>
         </div>
